@@ -1,0 +1,1 @@
+cadastre-builder merge dist/

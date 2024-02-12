@@ -1,0 +1,1 @@
+cadastre-builder import-pci --bundle edigeo sources-edigeo/ dist/

@@ -1,0 +1,1 @@
+cadastre-builder import-pci --bundle dxf-cc sources-dxf-cc/ dist/

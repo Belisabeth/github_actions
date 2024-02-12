@@ -1,0 +1,1 @@
+cadastre-builder extract-ems --rts source/referentiel_topo_simplifie.zip --parcellaire source/referentiel_parcellaire.zip dist/
