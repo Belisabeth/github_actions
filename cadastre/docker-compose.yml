@@ -1,0 +1,18 @@
+version: '2'
+
+services:
+  cadastre-builder:
+    image: cadastre-builder
+    container_name: cadastre-builder
+    mem_limit: 5G
+    volumes:
+      - .\source\edigeo:/app/sources-edigeo
+      - .\source\dxf-cc:/app/sources-dxf-cc
+      - .\source\dist:/app/dist
+      #- /etc/localtime:/etc/localtime:ro
+      #- /etc/timezone:/etc/TZ:ro
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "20m"
+        max-file: "3"
